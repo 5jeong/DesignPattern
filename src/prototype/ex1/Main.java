@@ -1,5 +1,8 @@
 package prototype.ex1;
 
+import com.sun.source.tree.Tree;
+import java.util.HashSet;
+import java.util.TreeSet;
 import prototype.ex1.framework.Manager;
 import prototype.ex1.framework.Product;
 
@@ -33,5 +36,11 @@ public class Main {
         System.out.println();
         Product p3Copy = p3.createCopy();
         p3Copy.use("Example");
+
+        TreeSet<Integer> treeSet = new TreeSet();
+
+
+
+
     }
 }
